@@ -17,7 +17,7 @@ cd f1-ml-lab/lap-time-predictor
 
 pip install -r requirements.txt
 
-streamlit run app.py
+streamlit run lap-time-predictor/app.py
 
 Or try the live app (link once deployed)
 
