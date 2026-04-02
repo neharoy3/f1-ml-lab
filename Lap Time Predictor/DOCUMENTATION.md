@@ -131,6 +131,8 @@ model = RandomForestRegressor(n_estimators=100, max_depth=10)
 
 ## **5. Analysis of Results**
 
+![alt text](image.png)
+
 ### **What the model learned correctly:**
 
 1. **Tyre age matters most** - 45% importance. Confirms F1 reality: tyres lose 0.1-0.2s per lap.
@@ -179,17 +181,12 @@ model = RandomForestRegressor(n_estimators=100, max_depth=10)
 - Driver matters less than I thought (only 15%)
 - Lap 1 is useless for training
 - Pit laps break patterns completely
-
-**Production:**
-- Streamlit makes UI trivial
-- .pkl files save hours of retraining
-- GitHub + Streamlit Cloud = free deployment
-
 ---
 
 ## **8. Conclusion**
 
-This project successfully predicts F1 lap times within 0.27 seconds using a Random Forest model on basic race data. The model correctly identifies tyre age as the dominant factor and captures non-linear degradation patterns that linear models miss.
+Model achieves ~3.3s MAE using a Random Forest model on single race data.
+Accuracy is limited by dataset size and missing features such as weather and fuel load. The model correctly identifies tyre age as the dominant factor and captures non-linear degradation patterns that linear models miss.
 
 **Successes:**
 - Working prediction with acceptable error
