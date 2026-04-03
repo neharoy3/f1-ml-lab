@@ -2,8 +2,6 @@
 
 *"You just have to keep pushing. You never give up."* — Lewis Hamilton
 
-Learning ML lap by lap.
-
 ## What is this?
 A garage where I build, test, and break machine learning models on F1 data.
 
@@ -19,7 +17,8 @@ pip install -r requirements.txt
 
 streamlit run lap-time-predictor/app.py
 
-Or try the live app (link once deployed)
+
+Or try the live app! https://f1-ml-lab.streamlit.app/
 
 ## Tech Stack
 
