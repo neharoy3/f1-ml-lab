@@ -1,4 +1,5 @@
 # 🏎️ F1 ML Lab
+<img src="https://img.shields.io/badge/Learning-In Progress-orange">
 
 *"You just have to keep pushing. You never give up."* — Lewis Hamilton
 
